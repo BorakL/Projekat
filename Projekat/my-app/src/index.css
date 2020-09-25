@@ -1,0 +1,189 @@
+*{
+  margin:0;
+  padding:0
+}
+body {
+  margin: 0;
+  color:rgb(68, 68, 68);
+  background-color:rgb(229, 236, 238);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a{
+  text-decoration: none;
+  color:rgb(41, 41, 41)
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+header{
+  background-color:rgb(109, 205, 235);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+header>div{
+  float:left;
+}
+header>#logo{
+  margin: 0 80px;
+}
+header img{
+  width:300px;
+}
+
+
+
+/*Navigacioni meni*/
+.navigation{
+  background-color: rgb(109, 205, 235);
+  overflow: hidden;
+}
+.navigation>ul{
+
+  margin:0 80px;
+}
+.navigation>ul>li{
+  float:left;
+  list-style-type: none;
+}
+.navigation>ul>li>a{
+  text-decoration: none;
+  font-weight: bold;
+  padding:10px 40px;
+  color:white;
+  display: block; 
+}
+.navigation>ul>li>a:hover{
+  background-color:white;
+  color:rgb(109, 205, 235)
+}
+
+
+
+
+
+/*MAIN*/
+.wrapper{
+  margin:0 80px;
+  padding-top:40px; 
+  min-height: 800px;
+  background-color: white;
+  overflow: hidden;
+}
+
+
+
+
+/*SEARCH EXERCISE*/
+
+.search h3 {
+  text-align: center;
+}
+.search>div{
+  margin-top:10px
+}
+.search>.by-muscle{
+  display: grid; 
+  grid-template-columns: 0.5fr 1.5fr;
+  grid-template-rows:1fr;
+  grid-gap: 10px;
+  grid-template-areas: "meni img";
+  border-bottom: 1px solid grey;
+  margin-bottom: 50px;
+}
+.search>.by-muscle>.meni{
+  grid-area:"meni"
+}
+.search>.by-muscle>.image{
+  grid-area:"image"
+}
+.search>.by-muscle>.meni>ul{
+  list-style-type: none;
+  margin-top: 20px;
+}
+.search>.by-muscle>.meni>ul>li>a{
+  text-align: center;
+  display: block;
+  padding:5px 20px;
+}
+.search>.by-muscle>.meni>ul>li>a:hover{
+  background-color:red;
+  color:white
+}
+
+.search>.by-muscle>.image>img{
+  width:600px;
+}
+
+.search>.by-equipment>.meni{
+  overflow: hidden;
+}
+.search>.by-equipment>.meni>.equipment{
+  float:left;
+  width:auto;
+  margin:30px;
+}
+.search>.by-equipment>.meni>.equipment img{
+  width:200px
+}
+.search>.by-equipment>.meni>.equipment p{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.search>.by-equipment>.meni>.equipment:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/*EXERCISE*/
+
+.exercises .exercise{
+  display: grid;
+  height: calc(1em + 300px);
+  float:left;
+  margin:40px;
+  align-content: space-evenly;
+  justify-items: center;
+}
+.exercise img{  
+   width:250px;
+  max-height: 90%;
+  min-width: 100px;
+}
+.exercise h3{
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.exercise:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/*
+EXERCISE INSTRUCTION
+*/
+.exercise-instruction{
+  margin:40px;
+}
+.exercises-instruction img {
+  width:200px;
+}
+
+
+/*MAKE WORKOUT*/
+
+.makeWorkout{
+  margin:10px;
+}
