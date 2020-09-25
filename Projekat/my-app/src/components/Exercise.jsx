@@ -6,10 +6,10 @@ const Exercise = ({exercises})=>{
     const e = exercises.find(e=>e.name===name)
     return e ? 
     (
-        <div class="exercise-instruction">
+        <div class="exerciseInstruction">
             <h2>{e.name}</h2>
             <img src={`http://localhost:3000/${e.img}`} alt="image"/> 
-            
+            <h3>TIPS</h3>
             <ul>
                 {e.tips.map(t=><li>{t}</li>)}
             </ul>

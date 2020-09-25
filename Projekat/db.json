@@ -1187,98 +1187,11 @@
   ],
   "workouts": [
     {
-      "id": "1",
-      "name": "My Workout",
-      "author": "Pera Peric",
-      "goal": "Increas strength",
-      "level": "Begginer",
-      "target_muscles": [
-        "Chest",
-        "Triceps"
-      ],
-      "descriptions": "fačlskf klčasf jklačsd fjklčasd fjklasd fjklča dfjčk",
-      "img": "asdf",
-      "plan": [
-        {
-          "day": 1,
-          "exercises": [
-            {
-              "number": 1,
-              "name": "Push-Ups",
-              "id": 1,
-              "sets": 4,
-              "reps": 10
-            },
-            {
-              "number": 2,
-              "name": "Pull-Ups",
-              "id": 2,
-              "sets": 4,
-              "reps": 6
-            },
-            {
-              "number": 3,
-              "name": "Squats",
-              "id": 0,
-              "sets": 5,
-              "reps": 20
-            }
-          ]
-        },
-        {
-          "day": 2,
-          "exercises": [
-            {
-              "number": 1,
-              "name": "Burpree",
-              "id": 0,
-              "sets": 4,
-              "reps": 10
-            },
-            {
-              "number": 2,
-              "name": "Pull-Ups",
-              "id": 0,
-              "sets": 4,
-              "reps": 6
-            },
-            {
-              "number": 3,
-              "name": "Squats",
-              "id": 0,
-              "sets": 5,
-              "reps": 20
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "asdfasfd",
-      "autor": "xyvxycvxc",
-      "workoutLevel": "Begginer",
-      "description": "weff",
-      "img": "",
-      "workout": [
-        {
-          "exercise": "Leaning-dumbbell-lateral-raise",
-          "sets": "4",
-          "reps": "10"
-        },
-        {
-          "exercise": "Cable-Front-Raise",
-          "sets": "4",
-          "reps": "10"
-        }
-      ],
-      "id": "_71POJY"
-    },
-    {
       "title": "Trening za ruke",
       "autor": "Pera Peric",
       "workoutLevel": "Intermediate",
       "description": "Forearms on the other hand are what I like to call the \"burning buggers.\" You will have to endure some high rep muscle-burning sets to get these babies to grow. Reps can go as high as 50 to get these to burn like they are on fire, but it will be all worth it when you have thick meaty forearms like Popeye.\n\nNow that you understand which muscles make up your arms, their function, location and the rep range needed to stimulate them, let's give you some workouts to help you build your arms.\n\nAll exercises should be performed in perfect form because bad form or habits that you start now will follow you and will lead to lack of progress or worse, injury in the future. Many if not all the exercises will be new to you. So make sure you use the Exercise Guide on Bodybuilding.com to help you with your form.",
-      "img": "",
+      "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
       "workout": [
         {
           "exercise": "Dumbbell-Alternate-Biceps-Curl",
@@ -1308,7 +1221,7 @@
       "autor": "John Smith",
       "workoutLevel": "Advanced",
       "description": "The only things that most guys focus on are the things they can see right in front of them.\n\nThat holds true in most contexts throughout life; at work, at home, and most especially, in the gym. But I'm here to change that.\n\nFor far too long you've probably been distracted by what's directly in your line of sight when you check yourself out in the mirror. Meanwhile, there's a whole world of potential gains just waiting to be had around the other side.\n\nYou should be working out your back just as hard as your front, and dedicating just as much time and effort to the things you can't always see. Building up your back is more beneficial than just checking off another box on your full body schedule. Once you get going, your posture will improve, as your weak, once-ignored muscles grow, so your desk-hunch will be less pronounced when you're away from the office.",
-      "img": "",
+      "img": "https://storage.googleapis.com/bag_media_store/static_dev/static_root/media/2019/12/18/e5711c7a-30ca-49ac-9150-9d134500a8f2.jpeg",
       "workout": [
         {
           "exercise": "Smith-machine-Yates-row",
@@ -1343,7 +1256,7 @@
       "autor": "Švarceneger",
       "workoutLevel": "Advanced",
       "description": "There are dozens of exercises you can do on chest day. In fact, the Bodybuilding.com Exercise Database lists at least 84, but you probably don't want to spend a Monday afternoon—or several Mondays—trying them all. You just want to know the best exercises for building a muscular chest, no questions asked. We've done the work for you, and found the top 10.\n\nThis isn't a list of the hardest chest exercises. It's focused on the best-of-the-best mass builders, with a little bit of instruction and explanation to complement each choice. You can swap exercises in your current routine for these choices, build your own chest workout with a handful of them, or just try one when your standard chest workout gets stale.",
-      "img": "",
+      "img": "https://i.ytimg.com/vi/TnvRFPbygOM/maxresdefault.jpg",
       "workout": [
         {
           "exercise": "Incline-push-up",
@@ -1367,6 +1280,36 @@
         }
       ],
       "id": "5viSCpe"
+    },
+    {
+      "title": "ABS trening",
+      "autor": "Luka",
+      "workoutLevel": "Begginer",
+      "description": "",
+      "img": "https://skinnyms.com/wp-content/uploads/2014/03/7-Day-Ab-Challenge3.jpg",
+      "workout": [
+        {
+          "exercise": "Seated-cable-twist",
+          "sets": "4",
+          "reps": "10"
+        },
+        {
+          "exercise": "machine-seated-crunch",
+          "sets": "4",
+          "reps": "10"
+        },
+        {
+          "exercise": "Decline-Twisting-Sit-up",
+          "sets": "4",
+          "reps": "10"
+        },
+        {
+          "exercise": "Crunch",
+          "sets": "4",
+          "reps": "10"
+        }
+      ],
+      "id": "ABqPbIr"
     }
   ]
 }

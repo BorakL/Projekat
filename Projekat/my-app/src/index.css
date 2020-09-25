@@ -163,6 +163,7 @@ header img{
 .exercise h3{
   text-align: center;
   margin-bottom: 20px;
+  margin-top:20px;
   font-weight: 400;
 }
 .exercise:hover{
@@ -174,11 +175,15 @@ header img{
 /*
 EXERCISE INSTRUCTION
 */
-.exercise-instruction{
+.exerciseInstruction{
   margin:40px;
 }
-.exercises-instruction img {
-  width:200px;
+.exerciseInstruction>img{
+  width:400px
+}
+.exerciseInstruction ul{
+  margin:20px 0 40px 0;
+  padding-left:40px
 }
 
 
@@ -186,4 +191,23 @@ EXERCISE INSTRUCTION
 
 .makeWorkout{
   margin:10px;
+}
+
+/*WORKOUT LIST*/
+.workoutList{
+  display: grid;
+  grid-gap:60px;
+  padding:10px;
+}
+
+.workoutList img{ 
+  margin-top:10px;
+  width:400px; 
+}
+
+.workoutList .workout table, tr, th, td{
+  border-collapse: collapse;
+  border:1px solid grey;
+  text-align: center;
+  margin-top: 10px;
 }
