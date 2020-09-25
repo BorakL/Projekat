@@ -1272,6 +1272,101 @@
         }
       ],
       "id": "_71POJY"
+    },
+    {
+      "title": "Trening za ruke",
+      "autor": "Pera Peric",
+      "workoutLevel": "Intermediate",
+      "description": "Forearms on the other hand are what I like to call the \"burning buggers.\" You will have to endure some high rep muscle-burning sets to get these babies to grow. Reps can go as high as 50 to get these to burn like they are on fire, but it will be all worth it when you have thick meaty forearms like Popeye.\n\nNow that you understand which muscles make up your arms, their function, location and the rep range needed to stimulate them, let's give you some workouts to help you build your arms.\n\nAll exercises should be performed in perfect form because bad form or habits that you start now will follow you and will lead to lack of progress or worse, injury in the future. Many if not all the exercises will be new to you. So make sure you use the Exercise Guide on Bodybuilding.com to help you with your form.",
+      "img": "",
+      "workout": [
+        {
+          "exercise": "Dumbbell-Alternate-Biceps-Curl",
+          "sets": "4",
+          "reps": "10"
+        },
+        {
+          "exercise": "Dumbbell-Kickback",
+          "sets": "4",
+          "reps": "8"
+        },
+        {
+          "exercise": "Cable-Cur",
+          "sets": "4",
+          "reps": "10"
+        },
+        {
+          "exercise": "Lying-cable-skull-crusher",
+          "sets": "6",
+          "reps": "9"
+        }
+      ],
+      "id": "7I2VP6j"
+    },
+    {
+      "title": "Back",
+      "autor": "John Smith",
+      "workoutLevel": "Advanced",
+      "description": "The only things that most guys focus on are the things they can see right in front of them.\n\nThat holds true in most contexts throughout life; at work, at home, and most especially, in the gym. But I'm here to change that.\n\nFor far too long you've probably been distracted by what's directly in your line of sight when you check yourself out in the mirror. Meanwhile, there's a whole world of potential gains just waiting to be had around the other side.\n\nYou should be working out your back just as hard as your front, and dedicating just as much time and effort to the things you can't always see. Building up your back is more beneficial than just checking off another box on your full body schedule. Once you get going, your posture will improve, as your weak, once-ignored muscles grow, so your desk-hunch will be less pronounced when you're away from the office.",
+      "img": "",
+      "workout": [
+        {
+          "exercise": "Smith-machine-Yates-row",
+          "sets": "3",
+          "reps": "12"
+        },
+        {
+          "exercise": "inverted-row",
+          "sets": "4",
+          "reps": "12"
+        },
+        {
+          "exercise": "pull-up",
+          "sets": "4",
+          "reps": "10"
+        },
+        {
+          "exercise": "barbell-deadlift",
+          "sets": "4",
+          "reps": "12"
+        },
+        {
+          "exercise": "Machine-Back-Extension",
+          "sets": "4",
+          "reps": "10"
+        }
+      ],
+      "id": "s_GMqlE"
+    },
+    {
+      "title": "Chest",
+      "autor": "Švarceneger",
+      "workoutLevel": "Advanced",
+      "description": "There are dozens of exercises you can do on chest day. In fact, the Bodybuilding.com Exercise Database lists at least 84, but you probably don't want to spend a Monday afternoon—or several Mondays—trying them all. You just want to know the best exercises for building a muscular chest, no questions asked. We've done the work for you, and found the top 10.\n\nThis isn't a list of the hardest chest exercises. It's focused on the best-of-the-best mass builders, with a little bit of instruction and explanation to complement each choice. You can swap exercises in your current routine for these choices, build your own chest workout with a handful of them, or just try one when your standard chest workout gets stale.",
+      "img": "",
+      "workout": [
+        {
+          "exercise": "Incline-push-up",
+          "sets": "4",
+          "reps": "12"
+        },
+        {
+          "exercise": "push-up-tall-2",
+          "sets": "4",
+          "reps": "10"
+        },
+        {
+          "exercise": "Incline-dumbbell-fly",
+          "sets": "4",
+          "reps": "12"
+        },
+        {
+          "exercise": "Dips",
+          "sets": "4",
+          "reps": "13"
+        }
+      ],
+      "id": "5viSCpe"
     }
   ]
 }

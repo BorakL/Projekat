@@ -120,11 +120,12 @@ const MakeWorkout = ({exercises})=>{
             workout: workout
         }
         postWorkout(workoutObj).then(res=>console.log(res))
+        document.getElementById("makeWorkout").reset()
         
     }
     
     return(
-        <form class="makeWorkout">
+        <form id="makeWorkout">
             <input type="text" placeholder="Title" onChange={(e)=>setTitle(e.target.value)}/><br/>
             <input type="text" placeholder="Autor" onChange={(e)=>setAutor(e.target.value)}/><br/>
     
